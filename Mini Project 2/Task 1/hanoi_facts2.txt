@@ -1,0 +1,14 @@
+(A Object)
+(B Object)
+(C Object)
+(disk1 Object)
+(disk2 Object)
+(disk3 Object)
+(disk4 Object)
+(disk5 Object)
+
+(preconds
+ (on disk1 disk2) (on disk2 disk3) (on disk3 disk4) (on disk4 disk5) (on disk5 C) (clear disk1) (clear A) (clear B) (isSmaller disk1 disk2) (isSmaller disk1 disk3) (isSmaller disk1 disk4) (isSmaller disk1 disk5) (isSmaller disk2 disk3) (isSmaller disk2 disk4) (isSmaller disk2 disk5) (isSmaller disk3 disk4) (isSmaller disk3 disk5) (isSmaller disk4 disk5) (isDisk disk1) (isDisk disk2) (isDisk disk3) (isDisk disk4) (isDisk disk5) (isPole A) (isPole B) (isPole C))
+
+(effects
+ (on disk1 disk2) (on disk2 disk3) (on disk3 disk4) (on disk4 disk5) (on disk5 A))

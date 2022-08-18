@@ -1,0 +1,14 @@
+(1 Object)
+(2 Object)
+(3 Object)
+(4 Object)
+(5 Object)
+(6 Object)
+(7 Object)
+(X Object)
+
+(preconds
+ (is11 1) (is12 2) (is13 3) (is21 4) (is22 5) (is23 6) (is31 7) (is32 X) (is33 X))
+
+(effects
+ (is11 1) (is12 2) (is13 3) (is21 X) (is22 5) (is23 6) (is31 4) (is32 X) (is33 7))

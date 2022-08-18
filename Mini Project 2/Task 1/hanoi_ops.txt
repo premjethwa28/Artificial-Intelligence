@@ -1,0 +1,39 @@
+
+(operator
+ move_d2d4p
+ (params
+  (<diska> Object) (<diskb> Object) (<polec> Object))
+ (preconds
+  (isDisk <diska>) (isDisk <diskb>) (clear <diska>) (clear <diskb>) (isSmaller <diska> <diskb>) (on <diska> <polec>) (isPole <polec>))
+ (effects
+  (on <diska> <diskb>) (del clear <diskb>) (clear <polec>) (del on <diska> <polec>)))
+
+
+(operator
+ move_d2d4d
+ (params
+  (<diska> Object) (<diskb> Object) (<diskc> Object))
+ (preconds
+  (isDisk <diska>) (isDisk <diskb>) (clear <diska>) (clear <diskb>) (isSmaller <diska> <diskb>) (on <diska> <diskc>) (isDisk <diskc>))
+ (effects
+  (on <diska> <diskb>) (del clear <diskb>) (clear <diskc>) (del on <diska> <diskc>)))
+
+
+(operator
+ move_d2p4p
+ (params
+  (<diska> Object) (<poleb> Object) (<polec> Object))
+ (preconds
+  (isDisk <diska>) (isPole <poleb>) (clear <diska>) (clear <poleb>) (on <diska> <polec>) (isPole <polec>))
+ (effects
+  (on <diska> <poleb>) (del clear <poleb>) (clear <polec>) (del on <diska> <polec>)))
+
+
+(operator
+ move_d2p4d
+ (params
+  (<diska> Object) (<poleb> Object) (<diskc> Object))
+ (preconds
+  (isDisk <diska>) (isPole <poleb>) (clear <diska>) (clear <poleb>) (on <diska> <diskc>) (isDisk <diskc>))
+ (effects
+  (on <diska> <poleb>) (del clear <poleb>) (clear <diskc>) (del on <diska> <diskc>)))

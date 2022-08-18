@@ -1,0 +1,239 @@
+
+(operator
+ move11_right
+ (params
+  (<a> Object))
+ (preconds
+  (is12 X) (is11 <a>))
+ (effects
+  (is12 <a>) (is11 X) (del is12 X) (del is11 <a>)))
+
+
+(operator
+ move11_down
+ (params
+  (<a> Object))
+ (preconds
+  (is21 X) (is11 <a>))
+ (effects
+  (is21 <a>) (is11 X) (del is21 X) (del is11 <a>)))
+
+
+(operator
+ move12_left
+ (params
+  (<a> Object))
+ (preconds
+  (is11 X) (is12 <a>))
+ (effects
+  (is11 <a>) (is12 X) (del is11 X) (del is12 <a>)))
+
+
+(operator
+ move12_right
+ (params
+  (<a> Object))
+ (preconds
+  (is13 X) (is12 <a>))
+ (effects
+  (is13 <a>) (is12 X) (del is13 X) (del is12 <a>)))
+
+
+(operator
+ move12_down
+ (params
+  (<a> Object))
+ (preconds
+  (is22 X) (is12 <a>))
+ (effects
+  (is22 <a>) (is12 X) (del is22 X) (del is12 <a>)))
+
+
+(operator
+ move13_left
+ (params
+  (<a> Object))
+ (preconds
+  (is12 X) (is13 <a>))
+ (effects
+  (is12 <a>) (is13 X) (del is12 X) (del is13 <a>)))
+
+
+(operator
+ move13_down
+ (params
+  (<a> Object))
+ (preconds
+  (is23 X) (is13 <a>))
+ (effects
+  (is23 <a>) (is13 X) (del is23 X) (del is13 <a>)))
+
+
+(operator
+ move21_up
+ (params
+  (<a> Object))
+ (preconds
+  (is11 X) (is21 <a>))
+ (effects
+  (is11 <a>) (is21 X) (del is11 X) (del is21 <a>)))
+
+
+(operator
+ move21_down
+ (params
+  (<a> Object))
+ (preconds
+  (is31 X) (is21 <a>))
+ (effects
+  (is31 <a>) (is21 X) (del is31 X) (del is21 <a>)))
+
+
+(operator
+ move21_right
+ (params
+  (<a> Object))
+ (preconds
+  (is22 X) (is21 <a>))
+ (effects
+  (is22 <a>) (is21 X) (del is22 X) (del is21 <a>)))
+
+
+(operator
+ move22_up
+ (params
+  (<a> Object))
+ (preconds
+  (is12 X) (is22 <a>))
+ (effects
+  (is12 <a>) (is22 X) (del is12 X) (del is22 <a>)))
+
+
+(operator
+ move22_down
+ (params
+  (<a> Object))
+ (preconds
+  (is32 X) (is22 <a>))
+ (effects
+  (is32 <a>) (is22 X) (del is32 X) (del is22 <a>)))
+
+
+(operator
+ move22_right
+ (params
+  (<a> Object))
+ (preconds
+  (is23 X) (is22 <a>))
+ (effects
+  (is23 <a>) (is22 X) (del is23 X) (del is22 <a>)))
+
+
+(operator
+ move22_left
+ (params
+  (<a> Object))
+ (preconds
+  (is21 X) (is22 <a>))
+ (effects
+  (is21 <a>) (is22 X) (del is21 X) (del is22 <a>)))
+
+
+(operator
+ move23_up
+ (params
+  (<a> Object))
+ (preconds
+  (is13 X) (is23 <a>))
+ (effects
+  (is13 <a>) (is23 X) (del is13 X) (del is23 <a>)))
+
+
+(operator
+ move23_down
+ (params
+  (<a> Object))
+ (preconds
+  (is33 X) (is23 <a>))
+ (effects
+  (is33 <a>) (is23 X) (del is33 X) (del is23 <a>)))
+
+
+(operator
+ move23_left
+ (params
+  (<a> Object))
+ (preconds
+  (is22 X) (is23 <a>))
+ (effects
+  (is22 <a>) (is23 X) (del is22 X) (del is23 <a>)))
+
+
+(operator
+ move31_up
+ (params
+  (<a> Object))
+ (preconds
+  (is21 X) (is31 <a>))
+ (effects
+  (is21 <a>) (is31 X) (del is21 X) (del is31 <a>)))
+
+
+(operator
+ move31_right
+ (params
+  (<a> Object))
+ (preconds
+  (is32 X) (is31 <a>))
+ (effects
+  (is32 <a>) (is31 X) (del is32 X) (del is31 <a>)))
+
+
+(operator
+ move32_up
+ (params
+  (<a> Object))
+ (preconds
+  (is22 X) (is32 <a>))
+ (effects
+  (is22 <a>) (is32 X) (del is22 X) (del is32 <a>)))
+
+
+(operator
+ move32_right
+ (params
+  (<a> Object))
+ (preconds
+  (is33 X) (is32 <a>))
+ (effects
+  (is33 <a>) (is32 X) (del is33 X) (del is32 <a>)))
+
+
+(operator
+ move32_left
+ (params
+  (<a> Object))
+ (preconds
+  (is31 X) (is32 <a>))
+ (effects
+  (is31 <a>) (is32 X) (del is31 X) (del is32 <a>)))
+
+
+(operator
+ move33_up
+ (params
+  (<a> Object))
+ (preconds
+  (is23 X) (is33 <a>))
+ (effects
+  (is23 <a>) (is33 X) (del is23 X) (del is33 <a>)))
+
+
+(operator
+ move33_left
+ (params
+  (<a> Object))
+ (preconds
+  (is32 X) (is33 <a>))
+ (effects
+  (is32 <a>) (is33 X) (del is32 X) (del is33 <a>)))
